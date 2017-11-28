@@ -18,8 +18,8 @@ int CalcularBilletes(void){
     
     //Declaro las variables a usar en el programa
     int resto, sueldo;
-    int Billetes={500,200,100}; //A.... he quitado el asterisco delante de billetes y monedas
-    int billetes={50,20,10,5,2,1};// A... he tenido que separar los int de billetes y operaciones porque eran demasiados caracteres
+    int Billetes[] = {500,200,100,50,20,10,5};
+    int monedas[]={2,1}; //A.... he quitado el asterisco delante de billetes y monedas
      //MANUEL monedas de centimo etc
     int operacion500, sueldo500, operacion200, sueldo200, operacion100, sueldo100;//A....dividido entre esta linea y la de abajo
     int  billetes50, billetes20, billetes10, billetes5, monedas2, monedas1, sueldo50, sueldo20, sueldo10, sueldo5, sueldo2, sueldo1;
