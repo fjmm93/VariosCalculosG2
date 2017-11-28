@@ -15,19 +15,19 @@ Leeremos los números a calcular desde la función principal y llamaremos a la f
 Este equipo de trabajo se encuentra integrado por:
 
 + Francisco
-    >Encargado de la rama **Master**
+    - >Encargado de la rama **Master**
   
 + José Ramón
-    >Encargado de la rama **Validar**
+    - >Encargado de la rama **Validar**
   
 + José Iniesta
-    >Encargado de la rama **RomanoIMC**
+    - >Encargado de la rama **RomanoIMC**
  
 + Chiti
-    >Encargada de la rama **MaxBillete**
+    - >Encargada de la rama **MaxBillete**
  
 + Alex
-    >Encargado de la rama **Billetes**
+    - >Encargado de la rama **Billetes**
   
 + Manuel
-   >Encargado de la rama **MonedasCent**
+    - >Encargado de la rama **MonedasCent**
