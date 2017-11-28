@@ -28,7 +28,7 @@ int CalcularBilletes(void){
     billetes100 = opBilletes100/100;
     
     //Operacion para calcular los billetes de 50
-    opBilletes50 = opBilletes100 + (billetes100 * 100);
+    opBilletes50 = opBilletes100 - (billetes100 * 100);
     billetes50 = opBilletes50/50;
        
     if (sueldo <= 6000){
