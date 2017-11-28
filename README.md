@@ -11,6 +11,7 @@ c.	Introducir uno o varios sueldos, establecer cuál es el tipo de billete más 
 Una vez mostrado el resultado debe volver al menú inicial.
 Leeremos los números a calcular desde la función principal y llamaremos a la función “ValidarNumero” para que verifique que el número es correcto. A continuación se llama a la función correspondiente para obtener el cálculo solicitado.
 
+## AUTHORS
 Este equipo de trabajo se encuentra integrado por:
 
 + Francisco
