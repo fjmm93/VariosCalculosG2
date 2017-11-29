@@ -3,10 +3,10 @@
 
 #include <stdio.h>
 #include <ctype.h>
-int romanos();
-int nif();
+int RomanoIMC(); // Falta realizar el archivo RomanoIMC.c
+int nif(); // // Falta realizar el archivo nif.c
 
-int validar (char *numero)
+int Validar (char *numero)
 {
 
     int largo;
@@ -23,7 +23,7 @@ int validar (char *numero)
     
     }else{
        if (largo<=4){
-           romanos(numero);
+           RomanoIMC(numero);
            
            
        }   else{
