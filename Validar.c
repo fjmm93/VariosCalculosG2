@@ -1,40 +1,44 @@
-
-//Autor Jose Ramon
-
 #include <stdio.h>
 #include <ctype.h>
-int RomanoIMC(); // Falta realizar el archivo RomanoIMC.c
-int nif(); // // Falta realizar el archivo nif.c
+#include <string.h>
 
-int Validar (char *numero) // Declaramos la función como puntero
+int validar (char *numero, int max)
 {
-
     int largo;
-    int comp; // Esto es para comprobar si es dato es válido
-    largo =strlen(numero); // strlen recoge la longitud del dato introducido
+    int comp;// comprobante
+    largo = strlen(numero);
     comp=0;
     
+
     // Recorremos la cadena (el dato introducido) para comprobar su tipo
-    for (int i=0; i<largo; ++i)
-    {
-        if (!isdigit (numero[i])) comp++;
-    }
+    if (max <=2)
+        {
+        for (int i=0; i<largo; ++i){   
+            if (!isdigit (numero[i])) comp++;
+        }
     
-    if (comp!=0)
-    { printf ("Dato introducido no válido, introduce un número.");
+        if (comp!=0)
+        { printf ("\nNo válido, introduce sólo números.\n");
     
-    }
+        }    
+
+        }
     else
     {
-       if (largo<=4)
-       {
-           RomanoIMC(numero);
-           
-           
-       }   else
-       {
-           nif(numero);
-           
-       }
+        for (int i=0; i<largo; ++i)
+        {
+            if (!isdigit (numero[i])) comp++;
+            if (comp == 1)
+            {    //si solo hay un caracter no numérico.
+                if (numero[i] == '.')
+                { //comprueba si ese caracter es la coma.
+                    comp = 0;       //si es la coma comp vuelve a 0 y no da fallo.
+                }
+                else 
+                {
+                    printf ("\nNo válido, introduce sólo números.\n");
+                }
+            }
+        }
     }
 }
