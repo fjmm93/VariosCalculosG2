@@ -1,17 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int validar();
+
 int main() {
     
     char eleccion;
-    int numero, peso, altura;
-    float sueldo;
-    int rep;
+    char numero[20];
+    char peso[20];
+    char altura[20];
+    char sueldo[20];
+    int rep, max;
     
     do{
     printf("\nElige una opción:\n");
     printf("\t0.- Finalizar\n");
-    printf("\t1.- Calcular letra IMC.\n");
+    printf("\t1.- Calcular IMC.\n");
     printf("\t2.- Calcular números romanos.\n");
     printf("\t3.- Calcular billetes.\n");
     
@@ -22,23 +26,30 @@ int main() {
                 printf("\nHas elegido finalizar.");
                 break;
             case '1':
-                printf("\nHas elegido calcular letra IMC.\n");
+                max = 1;
+                printf("\nHas elegido calcular IMC.\n");
                 printf("\nEscribe tu peso(kg).\n\n");
-                scanf("%i", &peso);
+                scanf("%s", &peso);
+                validar(peso, max);
                 printf("\nEscribe tu altura(cm).\n\n");
-                scanf("%i",&altura);
+                scanf("%s",&altura);
+                validar(altura, max);
                 rep = 1;
                 break;
             case '2':
+                max = 2;
                 printf("\nHas elegido calcular romanos.\n\n");
                 printf ("Introduce un número entre 1 y 3500.\n\n");
-                scanf ("%i", &numero);
+                scanf ("%s", &numero);
+                validar(numero, max);
                 rep = 1;
                 break;
             case '3':
+                max = 3;
                 printf("\nHas elegido calcular los billetes.\n\n");
                 printf("Introduce tu sueldo.\n\n");
-                scanf("%f",&sueldo);
+                scanf("%s",&sueldo);
+                validar(sueldo, max);
                 rep = 1;
                 break;
             default:    //opcion que usa si no es ninguna de las anteriores
