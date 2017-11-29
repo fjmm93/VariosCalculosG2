@@ -5,8 +5,8 @@
 
 int main(void){
     
-    int centimos =0, sueldo = 0; /* -Vincent- Cre� la variable centimos */
-    float entrada; /* -Vincent- cre� la variable entrada */
+    int centimos =0, sueldo = 0; /* -Vincent- Creo la variable centimos */
+    float entrada; /* -Vincent- creo la variable entrada */
     int Billetes[] = {500,200,100,50,20,10,5};
     
     int opBilletes500,sueldo500,opBilletes200,sueldo200,opBilletes100,sueldo100;
@@ -36,9 +36,9 @@ int main(void){
         printf("4.- Finalizar\n");
         printf("=================================================\n");
     
-        scanf("%i",&cambio);//Decimos que elecci�n es equivalente a la opcion del menu que se haya seleccionado
+        scanf("%i",&cambio);//Decimos que eleccion es equivalente a la opcion del menu que se haya seleccionado
     
-        //Funci�n mediante la cual se hacen las operaciones de todo el menu
+        //Funcion mediante la cual se hacen las operaciones de todo el menu
         switch(cambio){
             case 0: //Case 0 = Cambio de sueldo comenzando por billetes de 500 euros")
                 
