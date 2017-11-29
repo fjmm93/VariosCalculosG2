@@ -6,7 +6,8 @@
 int romanos();
 int nif();
 
-int validar (char *numero){
+int validar (char *numero)
+{
 
     int largo;
     int comp;// comprobante
