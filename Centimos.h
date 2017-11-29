@@ -5,7 +5,7 @@ int monedas(int salario)
 {
     int    contador = 0;  /* Variable de control para el bucle*/
     int      indice = 0;  /* Variable para recorrer los array monedas[] y resto[] */
-    int   monedas[] = {50, 20, 10, 5, 1}; /* Array con las monedas de centimo*/
+    int   monedas[] = {50, 20, 10, 5, 2, 1}; /* Array con las monedas de centimo*/
     int      LIMITE = (sizeof(monedas)/sizeof(float)); /* Tamaño del array monedas[] */
     int     resto[5]= {0}; /* array con el resto de las operaciones, se inicializan todos los valores a 0 */
 
