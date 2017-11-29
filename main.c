@@ -4,9 +4,8 @@
 int main() {
     
     char eleccion;
-    char numero[20];
-    char peso[20];
-    char altura[20];
+    int numero, peso, altura;
+    float sueldo;
     int rep;
     
     do{
@@ -25,21 +24,21 @@ int main() {
             case '1':
                 printf("\nHas elegido calcular letra IMC.\n");
                 printf("\nEscribe tu peso(kg).\n\n");
-                scanf("%s", &peso);
+                scanf("%i", &peso);
                 printf("\nEscribe tu altura(cm).\n\n");
-                scanf("%s",&altura);
+                scanf("%i",&altura);
                 rep = 1;
                 break;
             case '2':
                 printf("\nHas elegido calcular romanos.\n\n");
                 printf ("Introduce un número entre 1 y 3500.\n\n");
-                scanf ("%s", &numero);
+                scanf ("%i", &numero);
                 rep = 1;
                 break;
             case '3':
                 printf("\nHas elegido calcular los billetes.\n\n");
                 printf("Introduce tu sueldo.\n\n");
-                scanf("%s",&numero);
+                scanf("%f",&sueldo);
                 rep = 1;
                 break;
             default:    //opcion que usa si no es ninguna de las anteriores
