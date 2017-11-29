@@ -12,7 +12,7 @@ int monedas(int salario)
     while(contador < LIMITE) {
         resto[indice] = salario / monedas[indice];
         salario = salario - (monedas[indice] * resto[indice]); /* se almacena el valor de la siguiente iteracion*/
-            if(resto[indice] != 0){ /* imprimer solo si el resto es diferente de 0 */
+            if(resto[indice] != 0){ /* imprimir solo si el resto es diferente de 0 */
                 printf("%d monedas de %d\n", resto[indice], monedas[indice]);
             }
         ++contador, ++indice;
