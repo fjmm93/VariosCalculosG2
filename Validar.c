@@ -6,30 +6,35 @@
 int RomanoIMC(); // Falta realizar el archivo RomanoIMC.c
 int nif(); // // Falta realizar el archivo nif.c
 
-int Validar (char *numero)
+int Validar (char *numero) // Declaramos la función como puntero
 {
 
     int largo;
-    int comp;// comprobante
-    largo =strlen(numero);
+    int comp; // Esto es para comprobar si es dato es válido
+    largo =strlen(numero); // strlen recoge la longitud del dato introducido
     comp=0;
     
-    for (int i=0; i<largo; ++i){
+    // Recorremos la cadena (el dato introducido) para comprobar su tipo
+    for (int i=0; i<largo; ++i)
+    {
         if (!isdigit (numero[i])) comp++;
     }
     
     if (comp!=0)
-    { printf ("No valido, introduce solo numeros.");
+    { printf ("Dato introducido no válido, introduce un número.");
     
-    }else{
-       if (largo<=4){
+    }
+    else
+    {
+       if (largo<=4)
+       {
            RomanoIMC(numero);
            
            
-       }   else{
+       }   else
+       {
            nif(numero);
            
        }
     }
-    
 }
