@@ -47,8 +47,14 @@ int MaxBilletes(void){
                 printf("El sueldo en billetes de 20 es: %i \n", sueldo20); 
                 printf("El sueldo en billetes de 10 es: %i \n", sueldo10);
                 printf("El sueldo en billetes de 5 es: %i \n", sueldo5); 
-                printf("El sueldo en billetes de 2 es: %i \n", sueldo2);
-                printf("El sueldo en billetes de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 2 es: %i \n", sueldo2);
+                printf("El sueldo en monedas de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 0.5 es: %i \n", sueldo05);
+                printf("El sueldo en monedas de 0.2 es: %i \n", sueldo02);
+                printf("El sueldo en monedas de 0.1 es: %i \n", sueldo01);
+                printf("El sueldo en monedas de 0.05 es: %i \n", sueldo005);
+                printf("El sueldo en monedas de 0.02 es: %i \n", sueldo002);
+                printf("El sueldo en monedas de 0.01 es: %i \n", sueldo001);
                 
                 break;
                 
@@ -60,8 +66,15 @@ int MaxBilletes(void){
                 printf("El sueldo en billetes de 20 es: %i \n", sueldo20); 
                 printf("El sueldo en billetes de 10 es: %i \n", sueldo10);
                 printf("El sueldo en billetes de 5 es: %i \n", sueldo5); 
-                printf("El sueldo en billetes de 2 es: %i \n", sueldo2);
-                printf("El sueldo en billetes de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 2 es: %i \n", sueldo2);
+                printf("El sueldo en monedas de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 0.5 es: %i \n", sueldo05);
+                printf("El sueldo en monedas de 0.2 es: %i \n", sueldo02);
+                printf("El sueldo en monedas de 0.1 es: %i \n", sueldo01);
+                printf("El sueldo en monedas de 0.05 es: %i \n", sueldo005);
+                printf("El sueldo en monedas de 0.02 es: %i \n", sueldo002);
+                printf("El sueldo en monedas de 0.01 es: %i \n", sueldo001);
+
                 
                 break;
                 
@@ -72,8 +85,14 @@ int MaxBilletes(void){
                 printf("El sueldo en billetes de 20 es: %i \n", sueldo20); 
                 printf("El sueldo en billetes de 10 es: %i \n", sueldo10);
                 printf("El sueldo en billetes de 5 es: %i \n", sueldo5); 
-                printf("El sueldo en billetes de 2 es: %i \n", sueldo2);
-                printf("El sueldo en billetes de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 2 es: %i \n", sueldo2);
+                printf("El sueldo en monedas de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 0.5 es: %i \n", sueldo05);
+                printf("El sueldo en monedas de 0.2 es: %i \n", sueldo02);
+                printf("El sueldo en monedas de 0.1 es: %i \n", sueldo01);
+                printf("El sueldo en monedas de 0.05 es: %i \n", sueldo005);
+                printf("El sueldo en monedas de 0.02 es: %i \n", sueldo002);
+                printf("El sueldo en monedas de 0.01 es: %i \n", sueldo001);
                 
                 break;
                 
@@ -83,8 +102,14 @@ int MaxBilletes(void){
                 printf("El sueldo en billetes de 20 es: %i \n", sueldo20); 
                 printf("El sueldo en billetes de 10 es: %i \n", sueldo10);
                 printf("El sueldo en billetes de 5 es: %i \n", sueldo5); 
-                printf("El sueldo en billetes de 2 es: %i \n", sueldo2);
-                printf("El sueldo en billetes de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 2 es: %i \n", sueldo2);
+                printf("El sueldo en monedas de 1 es: %i \n", sueldo1);
+                printf("El sueldo en monedas de 0.5 es: %i \n", sueldo05);
+                printf("El sueldo en monedas de 0.2 es: %i \n", sueldo02);
+                printf("El sueldo en monedas de 0.1 es: %i \n", sueldo01);
+                printf("El sueldo en monedas de 0.05 es: %i \n", sueldo005);
+                printf("El sueldo en monedas de 0.02 es: %i \n", sueldo002);
+                printf("El sueldo en monedas de 0.01 es: %i \n", sueldo001);
                 
                 break;
                 
