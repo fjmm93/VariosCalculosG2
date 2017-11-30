@@ -1,3 +1,9 @@
+*********************************************************************
+//no ejecuta 
+//da fallo en monedas(centimos) y en #include "Centimos.h"
+
+*********************************************************************
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
