@@ -11,7 +11,7 @@ int validar (char *numero, int modo)
     
 
     // Recorremos la cadena (el dato introducido) para comprobar su tipo.
-    if (modo = 1)
+    if (modo <=2)
         {
         for (int i=0; i<largo; ++i){   //mientras i sea menor que largo i se ira incrementando de 1 en 1.
             if (!isdigit (numero[i])) comp++;   // si hay alguna letra comp se incrementa.
