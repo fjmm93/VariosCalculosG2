@@ -31,7 +31,7 @@ int main(void){
     int cambio; //Variable para el menu 
     
     while(cambio != 4){
-         //A...se imprime el sueldo fraccionado en billetes de diferentes valores
+         //imprime el sueldo fraccionado en billetes de diferentes valores
         printf("=================================================\n");
         printf("Elige una opcion: \n");
         printf("0.- Cambio de sueldo en billetes de 500 euros \n");
