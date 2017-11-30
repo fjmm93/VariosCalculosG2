@@ -20,13 +20,13 @@ int main() {
     printf("\t3.- Calcular billetes.\n");
     
     scanf("%s",&eleccion);
-    rep = 0;
+    rep = 0; //variable para repetir el bucle.
         switch (eleccion) {
             case '0':
                 printf("\nHas elegido finalizar.");
                 break;
             case '1':
-                max = 1;
+                max = 1; //variable para determinar que modo de validacion se usa.
                 printf("\nHas elegido calcular IMC.\n");
                 printf("\nEscribe tu peso(kg).\n\n");
                 scanf("%s", &peso);
@@ -52,10 +52,10 @@ int main() {
                 validar(sueldo, max);
                 rep = 1;
                 break;
-            default:    //opcion que usa si no es ninguna de las anteriores
+            default:    //opcion que usa si no es ninguna de las anteriores.
                 printf("\nOpción no válida.\n");
                 rep = 1;
                 break;
             }
-    }while(rep!=0);
+    }while(rep!=0); //repite el bucle mientras rep sea distinto de 0.
 }
