@@ -27,12 +27,12 @@ int main() {
                 printf("\nHas elegido finalizar.");
                 break;
             case '1':
-                modo = 3; //variable que indica que tipo de validacion se realiza.
+                modo = 3; //A...cuando coge 3 el programa acepta la coma. variable que indica que tipo de validacion se realiza.
                 printf("\nHas elegido calcular IMC.\n");
                 printf("\nEscribe tu peso(kg).\n\n");
                 scanf("%s", &peso);
                 validar(peso, modo);    //se llama a la funcion validar y se le da los valores peso y modo.
-                modo = 1;
+                modo = 1;//A.. al escoger 1 o 2 (en el modo) la coma no la leeria
                 printf("\nEscribe tu altura(cm).\n\n");
                 scanf("%s",&altura);
                 validar(altura, modo);
