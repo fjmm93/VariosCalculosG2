@@ -10,7 +10,7 @@ int main() {
     char peso[20];
     char altura[20];
     char sueldo[20];
-    int rep, max;
+    int rep, modo;
     
     do{
     printf("\nElige una opción:\n");
@@ -26,30 +26,31 @@ int main() {
                 printf("\nHas elegido finalizar.");
                 break;
             case '1':
-                max = 1; //variable para determinar que modo de validacion se usa.
+                modo = 2; //variable para determinar que modo de validacion se usa.
                 printf("\nHas elegido calcular IMC.\n");
                 printf("\nEscribe tu peso(kg).\n\n");
                 scanf("%s", &peso);
-                validar(peso, max);
+                validar(peso, modo);
                 printf("\nEscribe tu altura(cm).\n\n");
                 scanf("%s",&altura);
-                validar(altura, max);
+                modo = 1;
+                validar(altura, modo);
                 rep = 1;
                 break;
             case '2':
-                max = 2;
+                modo = 1;
                 printf("\nHas elegido calcular romanos.\n\n");
                 printf ("Introduce un número entre 1 y 3500.\n\n");
                 scanf ("%s", &numero);
-                validar(numero, max);
+                validar(numero, modo);
                 rep = 1;
                 break;
             case '3':
-                max = 3;
+                modo = 2;
                 printf("\nHas elegido calcular los billetes.\n\n");
                 printf("Introduce tu sueldo.\n\n");
                 scanf("%s",&sueldo);
-                validar(sueldo, max);
+                validar(sueldo, modo);
                 rep = 1;
                 break;
             default:    //opcion que usa si no es ninguna de las anteriores.
