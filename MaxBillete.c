@@ -18,7 +18,7 @@ int MaxBilletes(char *sueldo){
     
     printf("\nDevolucion de nuestro sueldo en billetes y monedas \n\n");
     
-     while(cambio != 4){
+     while(cambio != 4){ //mientras cambio sea distinto de 4 se repite todo.
         
         /* 
          * Declaro todas las opciones del menu. En el menu seleccionamos si queremos empezar a hacer el cambio del sueldo 
@@ -35,7 +35,7 @@ int MaxBilletes(char *sueldo){
 
         scanf("%i",&cambio);//Decimos que elección es equivalente a la opcion del menu que se haya seleccionado
        
-        CalcularBilletes(sueldo, cambio);
-    }    
+        CalcularBilletes(sueldo, cambio); // ejecuta la funcion calcularbilletes
+    }                                     //se le da las variables sueldo (para calculos) y cambio (para desglosar a partir del billete elegido)
 }
 
