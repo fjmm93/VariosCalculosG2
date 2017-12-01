@@ -6,22 +6,21 @@
 int CalcularBilletes(char *sueldo, int cambio){
     
     float sueldodecimal;
-    sueldodecimal = atof(sueldo);
+    sueldodecimal = atof(sueldo); //pasamos la cadena de caracteres 'sueldo' a float
     int sueldoentero, centimos;
-    sueldoentero = atoi(sueldo);
+    sueldoentero = atoi(sueldo);  //pasamos la cadena de caracteres 'sueldo' a entero
     centimos = (int) ceilf((sueldodecimal  -  sueldoentero) * 100);
 
     //Variable en la que indicamos el sueldo
     int opBilletes500,sueldo500,opBilletes200,sueldo200,opBilletes100,sueldo100;
     int opBilletes50,sueldo50,opBilletes20,sueldo20,opBilletes10,sueldo10,opBilletes5,sueldo5;
     
-    int opMonedas2,sueldo2,opMonedas1,sueldo1,opMonedas05,sueldo05,opMonedas02,sueldo02;
-    int opMonedas01,sueldo01,opMonedas005,sueldo005,opMonedas002,sueldo002,opMonedas001,sueldo001;
+    int opMonedas2,sueldo2,opMonedas1,sueldo1;
     
     printf("\nEl sueldo se divide en:\n");
     
         //Función mediante la cual se hacen las operaciones de todo el menu
-        switch(cambio){
+        switch(cambio){  //la variable cambio especifica a partir de que billete desglosamos el sueldo.
             case 0: //Case 0 = Cambio de sueldoentero comenzando por billetes de 500 euros")
                 
                 //Operacion para calcular los billetes de 500
