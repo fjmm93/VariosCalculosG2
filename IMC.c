@@ -5,13 +5,15 @@
 int Imc(char *peso, char *altura){
     
     float operacion, pesofloat, alturafloat;
-    
+    //convertimos peso y altura a float
     pesofloat = atof(peso);
     alturafloat = atof(altura);
-    
-    operacion = pesofloat / ((alturafloat / 100) * (alturafloat / 100)); 
+                                //la altura se divide entre 100 ya que se pide en centímetros
+    operacion = pesofloat / ((alturafloat / 100) * (alturafloat / 100));  
     
     printf("IMC es: %0.2f \n",operacion); 
+    
+    //segun el valor de operacion imprime un mensaje
     
     if (operacion < 16.00){
         printf("Infrapeso: Delgadez Severa \n");
