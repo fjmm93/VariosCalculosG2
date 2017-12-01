@@ -5,8 +5,10 @@
 int romanos(int num){
     
     int U,D,C,M;
- 
-    char *numR[4][10];
+    
+    // se establece un array con una tabla de valores
+    
+    char *numR[4][10]; 
     
     numR[3][3]="MMM";
     numR[3][2]="MM";
@@ -46,19 +48,21 @@ int romanos(int num){
     numR[0][1]="I";
     numR[0][0]="";
     
-    U = num%10;
-    D = (num/10)%10;
-    C = (num/100)%10;
-    M = (num/1000)%10;
-
+    U = num%10;         //obtenemos unidades
+    D = (num/10)%10;    //obtenemos decenas
+    C = (num/100)%10;   //obtenemos centenas
+    M = (num/1000)%10;  //obtenemos millares
+    
+    //si el numero es mayor de 3500 o menor de 0 imprime el mensaje
+    
     if (num > 3500 ){
         printf("\nNumeros superiores a 3500 no son validos \n");
     }
     else if(num <0){
         printf("\nNumeros inferiores a cero no son validos \n");
     }
-    else{
-        printf("\nEl numero en romano es: %s%s%s%s \n",numR[3][M],numR[2][C],numR[1][D],numR[0][U]);
+    else{                                               //busca la posicion en la tabla del numero romano y lo imprime por pantalla
+        printf("\nEl numero en romano es: %s%s%s%s \n",numR[3][M],numR[2][C],numR[1][D],numR[0][U]); 
     }
     
     return 0;
