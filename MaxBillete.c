@@ -36,6 +36,6 @@ int MaxBilletes(char *sueldo){
         scanf("%i",&cambio);//Decimos que elección es equivalente a la opcion del menu que se haya seleccionado
        
         CalcularBilletes(sueldo, cambio); // ejecuta la funcion calcularbilletes
-    }                                     //se le da las variables sueldo (para calculos) y cambio (para desglosar a partir del billete elegido)
+    }      //se le da las variables sueldo (para calculos) y cambio (para desglosar a partir del billete elegido)
 }
 
