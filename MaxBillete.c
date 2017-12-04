@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int CalcularBilletes();
+int CalcularBilletes(); //LLama a la función CalcularBilletes en la cual se encuentran las operaciones a realizar
 
 int MaxBilletes(char *sueldo){
     
